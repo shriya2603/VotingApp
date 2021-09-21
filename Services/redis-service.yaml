@@ -10,6 +10,6 @@ spec:
   ports:
     - port: 6379
       targetPort: 6379
-  selector: # add labels of pod 
-   name: redis-app-pod
-   app: demo-voting-app
+  selector: # add labels of pod or deployments
+    name: redis-app-pod
+    app: demo-voting-app

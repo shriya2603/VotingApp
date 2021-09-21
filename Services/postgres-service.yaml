@@ -10,6 +10,6 @@ spec:
   ports:
     - port: 5432
       targetPort: 5432
-  selector: # add labels of pod
+  selector: # add labels of pod or deployments
     name: postgres-pod
     app: demo-voting-app

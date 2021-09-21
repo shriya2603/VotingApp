@@ -11,6 +11,6 @@ spec:
     - port: 80
       targetPort: 80
       nodePort: 30004
-  selector: # add labels of pod 
-   name: voting-app-pod
-   app: demo-voting-app
+  selector: # add labels of pod or deployments
+    name: voting-app-pod
+    app: demo-voting-app
